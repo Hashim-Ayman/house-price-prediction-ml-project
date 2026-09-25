@@ -136,9 +136,9 @@ The app will open at `http://localhost:8501`.
 
 ## 🖼️ Demo
 
-<<img width="1919" height="866" alt="Screenshot 2026-09-25 185811" src="https://github.com/user-attachments/assets/d2b2c308-09da-4075-8830-a00e9ec50343" />
+<img width="1919" height="866" alt="Screenshot 2026-09-25 185811" src="https://github.com/user-attachments/assets/d2b2c308-09da-4075-8830-a00e9ec50343" />
 >
-<<img width="1919" height="1013" alt="Screenshot 2026-09-25 185923" src="https://github.com/user-attachments/assets/6a23caba-ce4d-48a6-a406-5dcb3e73fed2" />
+<img width="1919" height="1013" alt="Screenshot 2026-09-25 185923" src="https://github.com/user-attachments/assets/6a23caba-ce4d-48a6-a406-5dcb3e73fed2" />
 >
 
 ---
