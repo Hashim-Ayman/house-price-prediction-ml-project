@@ -1,6 +1,6 @@
 # 🏡 California House Price Predictor
 
-🔗 **Live App:** [[https://your-app-url.streamlit.app](https://your-app-url.streamlit.app](https://house-price-prediction-ml-project-dw98wvkhy785aeafdobejs.streamlit.app/))
+🔗 **Live App:** [(https://your-app-url.streamlit.app](https://house-price-prediction-ml-project-dw98wvkhy785aeafdobejs.streamlit.app/))]
 
 A machine learning web app that predicts the median house value for a California census block, built on the classic **California Housing** dataset. The app is powered by an **XGBoost regression model** and served through an interactive **Streamlit** interface.
 
@@ -151,4 +151,4 @@ The full data exploration, feature engineering, and model selection process (inc
 
 ## 🙋 Author
 
-Built by **[Your Name]** — feel free to reach out or open an issue if you have questions or suggestions.
+Built by **[Hashim-Ayman]** — feel free to reach out or open an issue if you have questions or suggestions.
