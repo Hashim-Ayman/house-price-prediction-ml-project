@@ -1,6 +1,6 @@
 # 🏡 California House Price Predictor
 
-🔗 **Live App:** [https://your-app-url.streamlit.app](https://your-app-url.streamlit.app)
+🔗 **Live App:** [[https://your-app-url.streamlit.app](https://your-app-url.streamlit.app](https://house-price-prediction-ml-project-dw98wvkhy785aeafdobejs.streamlit.app/))
 
 A machine learning web app that predicts the median house value for a California census block, built on the classic **California Housing** dataset. The app is powered by an **XGBoost regression model** and served through an interactive **Streamlit** interface.
 
@@ -46,6 +46,15 @@ Computed automatically at inference time from the raw inputs above, matching the
 - `population_per_household` = `population / households`
 
 ---
+
+## 📊 Model Comparison
+
+Two candidate models were trained and tuned (`RandomizedSearchCV` for Random Forest, `GridSearchCV` for XGBoost), then evaluated once on a held-out test set:
+
+| Model | Test RMSE ↓ | Test R² ↑ |
+|---|---:|---:|
+| Random Forest (tuned) | 61,541.66 | 0.711 |
+| **XGBoost (tuned)** | **45,373.09** | **0.843** |
 
 ## 🛠️ Tech Stack
 
@@ -127,20 +136,16 @@ The app will open at `http://localhost:8501`.
 
 ## 🖼️ Demo
 
-<!-- Add a screenshot or GIF of the app here -->
-<!-- ![App screenshot](docs/screenshot.png) -->
+<<img width="1919" height="866" alt="Screenshot 2026-09-25 185811" src="https://github.com/user-attachments/assets/d2b2c308-09da-4075-8830-a00e9ec50343" />
+>
+<<img width="1919" height="1013" alt="Screenshot 2026-09-25 185923" src="https://github.com/user-attachments/assets/6a23caba-ce4d-48a6-a406-5dcb3e73fed2" />
+>
 
 ---
 
 ## 📓 Notebook
 
 The full data exploration, feature engineering, and model selection process (including comparison of candidate models) is documented in [`notebooks/notebook.ipynb`](notebooks/notebook.ipynb).
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
